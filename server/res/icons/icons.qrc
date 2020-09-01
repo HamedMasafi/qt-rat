@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="applications-system.png">applications-system.png</file>
+        <file alias="button_blue_play.png">button_blue_play.png</file>
+        <file alias="button_blue_repeat.png">button_blue_repeat.png</file>
+        <file alias="camera-photo.png">camera-photo.png</file>
+        <file alias="cut.png">cut.png</file>
+        <file alias="delete.png">delete.png</file>
+        <file alias="diagram.png">diagram.png</file>
+        <file alias="edit-copy.png">edit-copy.png</file>
+        <file alias="edit-paste.png">edit-paste.png</file>
+        <file alias="filter.png">filter.png</file>
+        <file alias="go-bottom.png">go-bottom.png</file>
+        <file alias="go-home.png">go-home.png</file>
+        <file alias="go-next.png">go-next.png</file>
+        <file alias="go-previous.png">go-previous.png</file>
+        <file alias="info_blue.png">info_blue.png</file>
+        <file alias="input-keyboard.png">input-keyboard.png</file>
+        <file alias="Internet_Security_entrance_exit_log_out_arrow.png">Internet_Security_entrance_exit_log_out_arrow.png</file>
+        <file alias="internet-web-browser.png">internet-web-browser.png</file>
+        <file alias="lock-open.png">lock-open.png</file>
+        <file alias="lock.png">lock.png</file>
+        <file alias="messagebox.png">messagebox.png</file>
+        <file alias="my-computer.png">my-computer.png</file>
+        <file alias="network-offline.png">network-offline.png</file>
+        <file alias="network-transmit.png">network-transmit.png</file>
+        <file alias="network-wired.png">network-wired.png</file>
+        <file alias="paul.png">paul.png</file>
+        <file alias="power_blue.png">power_blue.png</file>
+        <file alias="preferences-desktop-remote-desktop.png">preferences-desktop-remote-desktop.png</file>
+        <file alias="preferences-system-network-proxy.png">preferences-system-network-proxy.png</file>
+        <file alias="preferences-system.png">preferences-system.png</file>
+        <file alias="preferences-system-session.png">preferences-system-session.png</file>
+        <file alias="rat.png">rat.png</file>
+        <file alias="system-file-manager.png">system-file-manager.png</file>
+        <file alias="task-manager.png">task-manager.png</file>
+        <file alias="transfer.png">transfer.png</file>
+        <file alias="up.png">up.png</file>
+        <file alias="user-home.png">user-home.png</file>
+        <file alias="utilities-system-monitor.png">utilities-system-monitor.png</file>
+        <file alias="utilities-terminal.png">utilities-terminal.png</file>
+        <file alias="video-display.png">video-display.png</file>
+        <file alias="view-refresh.png">view-refresh.png</file>
+        <file>registry.png</file>
+    </qresource>
+</RCC>

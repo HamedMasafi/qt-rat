@@ -1,0 +1,13 @@
+QWidget {
+    background-color: white;
+}
+QPushButton {
+    border: none;
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+    padding: 6px 12px;
+}
+QPushButton::hover {
+    text-decoration: underline;
+    change-cursor: cursor('PointingHand');
+}

@@ -1,0 +1,12 @@
+#ifndef SOCKSLIB_GLOBAL_H
+#define SOCKSLIB_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(SOCKSLIB_LIBRARY)
+#define SOCKSLIBSHARED_EXPORT Q_DECL_EXPORT
+#else
+#define SOCKSLIBSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // SOCKSLIB_GLOBAL_H

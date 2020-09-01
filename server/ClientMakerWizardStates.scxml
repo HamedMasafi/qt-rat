@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0" binding="early" xmlns:qt="http://www.qt.io/2015/02/scxml-ext" name="ClientMakerWizardStates" qt:editorversion="4.11.0">
+    <state id="Welcome">
+        <qt:editorinfo geometry="163.81;183.27;-60;-50;120;100" scenegeometry="163.81;183.27;103.81;133.27;120;100"/>
+        <transition type="external" event="next" target="Platform"/>
+    </state>
+    <state id="Platform">
+        <qt:editorinfo geometry="359.37;183.27;-60;-50;120;100" scenegeometry="359.37;183.27;299.37;133.27;120;100"/>
+        <transition type="external" event="next" target="Connection"/>
+    </state>
+    <state id="Connection">
+        <qt:editorinfo geometry="570.28;183.27;-60;-50;120;100" scenegeometry="570.28;183.27;510.28;133.27;120;100"/>
+        <transition type="external" event="next" target="Path">
+            <qt:editorinfo endTargetFactors="47.06;12.02"/>
+        </transition>
+        <transition type="external" event="next" target="Apk"/>
+    </state>
+    <state id="Path">
+        <qt:editorinfo geometry="570.28;326.61;-60;-50;120;100" scenegeometry="570.28;326.61;510.28;276.61;120;100"/>
+        <transition type="external" event="next" target="MessageBox">
+            <qt:editorinfo localGeometry="-210.91;102.38"/>
+        </transition>
+    </state>
+    <state id="Apk">
+        <qt:editorinfo geometry="359.37;326.61;-60;-50;120;100" scenegeometry="359.37;326.61;299.37;276.61;120;100"/>
+        <transition type="external" event="next" target="MessageBox"/>
+    </state>
+    <state id="MessageBox">
+        <qt:editorinfo geometry="163.81;326.61;-60;-50;120;100" scenegeometry="163.81;326.61;103.81;276.61;120;100"/>
+        <transition type="external" event="next" target="Output"/>
+    </state>
+    <state id="Output">
+        <qt:editorinfo geometry="163.81;488.37;-60;-50;120;100" scenegeometry="163.81;488.37;103.81;438.37;120;100"/>
+    </state>
+</scxml>

@@ -1,0 +1,151 @@
+[
+    {
+        "arch": "x86",
+        "files": [
+            {
+                "file": "platforms_qdirect2d_dll.zip",
+                "out": "platforms/qdirect2d.dll",
+                "size": 1090152
+            },
+            {
+                "file": "platforms_qminimal_dll.zip",
+                "out": "platforms/qminimal.dll",
+                "size": 598576
+            },
+            {
+                "file": "platforms_qoffscreen_dll.zip",
+                "out": "platforms/qoffscreen.dll",
+                "size": 526871
+            },
+            {
+                "file": "platforms_qwindows_dll.zip",
+                "out": "platforms/qwindows.dll",
+                "size": 1048238
+            },
+            {
+                "file": "client_exe.zip",
+                "out": "client.exe",
+                "size": 258967
+            },
+            {
+                "file": "libgcc_s_dw2-1_dll.zip",
+                "out": "libgcc_s_dw2-1.dll",
+                "size": 49229
+            },
+            {
+                "file": "libstdc++-6_dll.zip",
+                "out": "libstdc++-6.dll",
+                "size": 430163
+            },
+            {
+                "file": "libwinpthread-1_dll.zip",
+                "out": "libwinpthread-1.dll",
+                "size": 21894
+            },
+            {
+                "file": "Qt5Core_dll.zip",
+                "out": "Qt5Core.dll",
+                "size": 3265302
+            },
+            {
+                "file": "Qt5Gui_dll.zip",
+                "out": "Qt5Gui.dll",
+                "size": 3359621
+            },
+            {
+                "file": "Qt5Multimedia_dll.zip",
+                "out": "Qt5Multimedia.dll",
+                "size": 409665
+            },
+            {
+                "file": "Qt5Network_dll.zip",
+                "out": "Qt5Network.dll",
+                "size": 831713
+            },
+            {
+                "file": "Qt5Svg_dll.zip",
+                "out": "Qt5Svg.dll",
+                "size": 192645
+            },
+            {
+                "file": "Qt5Widgets_dll.zip",
+                "out": "Qt5Widgets.dll",
+                "size": 3067797
+            }
+        ],
+        "platform": "windows",
+        "total_size": 15150833
+    },
+    {
+        "arch": "x86-64",
+        "files": [
+            {
+                "file": "platforms_qdirect2d_dll.zip",
+                "out": "platforms/qdirect2d.dll",
+                "size": 1081105
+            },
+            {
+                "file": "platforms_qminimal_dll.zip",
+                "out": "platforms/qminimal.dll",
+                "size": 586224
+            },
+            {
+                "file": "platforms_qoffscreen_dll.zip",
+                "out": "platforms/qoffscreen.dll",
+                "size": 516981
+            },
+            {
+                "file": "platforms_qwindows_dll.zip",
+                "out": "platforms/qwindows.dll",
+                "size": 1039699
+            },
+            {
+                "file": "client_exe.zip",
+                "out": "client.exe",
+                "size": 254394
+            },
+            {
+                "file": "libgcc_s_seh-1_dll.zip",
+                "out": "libgcc_s_seh-1.dll",
+                "size": 33458
+            },
+            {
+                "file": "libstdc++-6_dll.zip",
+                "out": "libstdc++-6.dll",
+                "size": 404061
+            },
+            {
+                "file": "libwinpthread-1_dll.zip",
+                "out": "libwinpthread-1.dll",
+                "size": 22848
+            },
+            {
+                "file": "Qt5Core_dll.zip",
+                "out": "Qt5Core.dll",
+                "size": 3208105
+            },
+            {
+                "file": "Qt5Gui_dll.zip",
+                "out": "Qt5Gui.dll",
+                "size": 3427497
+            },
+            {
+                "file": "Qt5Multimedia_dll.zip",
+                "out": "Qt5Multimedia.dll",
+                "size": 407044
+            },
+            {
+                "file": "Qt5Network_dll.zip",
+                "out": "Qt5Network.dll",
+                "size": 804124
+            },
+            {
+                "file": "Qt5Widgets_dll.zip",
+                "out": "Qt5Widgets.dll",
+                "size": 2905809
+            }
+        ],
+        "platform": "windows",
+        "total_size": 14691349
+    }
+]

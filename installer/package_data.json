@@ -1,0 +1,23 @@
+{
+	"global": {
+		"7z": "C:/Program Files/7-Zip/7z.exe"
+	},
+	"platforms": [
+		{
+			"platform": "windows",
+			"arch": "x86",
+			"qt": "c:/Qt/5.14.0/mingw73_32/",
+			"server_exe": "/../../build/rat/Desktop_Qt_5_14_0_MinGW_32_bit/Release/server/server.exe",
+			"client_exe": "/../../build/rat/Desktop_Qt_5_14_0_MinGW_32_bit/Release/client/client.exe",
+			"client_maker": "/../tools/ClientMaker/ClientMaker/bin/Release"
+		}, {
+			"platform": "windows",
+			"arch": "x86-64",
+			"qt": "c:/Qt/5.14.0/mingw73_64/",
+			"server_exe": "/../../build/rat/Desktop_Qt_5_14_0_MinGW_64_bit/Release/server/server.exe",
+			"client_exe": "/../../build/rat/Desktop_Qt_5_14_0_MinGW_64_bit/Release/client/client.exe",
+			"client_maker": "/../tools/ClientMaker/ClientMaker/bin/Release"
+		}
+	]
+}
+

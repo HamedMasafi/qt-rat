@@ -1,0 +1,2 @@
+c:\Qt\Tools\QtInstallerFramework\3.2\bin\binarycreator.exe -c config.xml -p packages\windows.x86 rat-x86.exe
+c:\Qt\Tools\QtInstallerFramework\3.2\bin\binarycreator.exe -c config.xml -p packages\windows.x86-64 rat-x86-64.exe

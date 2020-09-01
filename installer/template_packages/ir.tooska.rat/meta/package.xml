@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>RAT Server</DisplayName>
+    <Description>Rrmote Administration Tool Server.</Description>
+    <Version>0.1.0-1</Version>
+    <ReleaseDate>2020-01-09</ReleaseDate>
+    <Default>true</Default>
+	<StartMenuDir>RAT</StartMenuDir>
+    <TargetDir>@ApplicationsDir@/RAT/server.exe</TargetDir>
+</Package>

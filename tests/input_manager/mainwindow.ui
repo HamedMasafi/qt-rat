@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>421</width>
+    <height>308</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="tabChangesFocus">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans'; font-size:10pt;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sed pulvinar proin gravida hendrerit. Amet commodo nulla facilisi nullam. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Velit sed ullamcorper morbi tincidunt ornare massa eget. Ipsum dolor sit amet consectetur adipiscing elit. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Quis risus sed vulputate odio ut enim blandit volutpat. Eu scelerisque felis imperdiet proin fermentum. Neque viverra justo nec ultrices. Ut venenatis tellus in metus vulputate eu. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. In nibh mauris cursus mattis molestie a iaculis at erat. Tellus id interdum velit laoreet id donec ultrices tincidunt. Magnis dis parturient montes nascetur ridiculus. Cras sed felis eget velit aliquet sagittis id.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Noto Sans'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans'; font-size:10pt;&quot;&gt;Ullamcorper morbi tincidunt ornare massa eget. Felis bibendum ut tristique et egestas quis. Eget velit aliquet sagittis id consectetur purus. Sed enim ut sem viverra aliquet eget sit amet. Ipsum consequat nisl vel pretium lectus. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. Morbi tincidunt ornare massa eget. Viverra justo nec ultrices dui sapien eget mi proin sed. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Duis ultricies lacus sed turpis tincidunt.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Noto Sans'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans'; font-size:10pt;&quot;&gt;Porttitor leo a diam sollicitudin tempor id eu nisl nunc. Sit amet purus gravida quis. Odio tempor orci dapibus ultrices in iaculis nunc. Tellus molestie nunc non blandit massa enim nec dui. Ante in nibh mauris cursus mattis molestie a iaculis at. Sit amet facilisis magna etiam tempor orci eu lobortis. At imperdiet dui accumsan sit amet nulla facilisi morbi. A lacus vestibulum sed arcu non odio euismod. Est ultricies integer quis auctor elit sed. Dignissim suspendisse in est ante in. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Morbi tristique senectus et netus et malesuada fames. Ornare quam viverra orci sagittis eu volutpat. Eu facilisis sed odio morbi quis commodo. Praesent elementum facilisis leo vel fringilla est ullamcorper. Elementum facilisis leo vel fringilla est ullamcorper eget. A arcu cursus vitae congue mauris rhoncus. At ultrices mi tempus imperdiet nulla malesuada pellentesque. Enim facilisis gravida neque convallis a cras.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Noto Sans'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans'; font-size:10pt;&quot;&gt;Consectetur adipiscing elit duis tristique sollicitudin nibh. Diam quis enim lobortis scelerisque fermentum dui. Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum. Maecenas ultricies mi eget mauris. Sed augue lacus viverra vitae congue eu consequat. Non odio euismod lacinia at quis risus sed. Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum. Lectus mauris ultrices eros in cursus turpis massa. Blandit massa enim nec dui nunc mattis enim ut tellus. At lectus urna duis convallis convallis. Sit amet nulla facilisi morbi tempus iaculis urna. Aliquet eget sit amet tellus cras adipiscing enim. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Nunc sed blandit libero volutpat sed cras. Vulputate mi sit amet mauris. Ridiculus mus mauris vitae ultricies leo integer malesuada. Aliquet eget sit amet tellus. Ut diam quam nulla porttitor massa id neque. Pharetra pharetra massa massa ultricies mi quis.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Noto Sans'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans'; font-size:10pt;&quot;&gt;Condimentum lacinia quis vel eros donec ac. Mauris rhoncus aenean vel elit scelerisque. Leo vel orci porta non pulvinar neque laoreet. Turpis in eu mi bibendum. In dictum non consectetur a erat nam at. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Vitae purus faucibus ornare suspendisse sed. Suspendisse sed nisi lacus sed viverra tellus in. Eget dolor morbi non arcu. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Risus viverra adipiscing at in tellus integer feugiat scelerisque.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButtonDragMouse">
+        <property name="text">
+         <string>Drag mouse</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonRightClick">
+        <property name="text">
+         <string>Right click</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonKeys">
+        <property name="text">
+         <string>Keys</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>421</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

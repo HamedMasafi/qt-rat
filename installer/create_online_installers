@@ -1,0 +1,2 @@
+c:\Qt\Tools\QtInstallerFramework\3.2\bin\binarycreator.exe --online-only -c config-online.xml -p packages\windows.x86 rat-x86-online.exe
+c:\Qt\Tools\QtInstallerFramework\3.2\bin\binarycreator.exe --online-only -c config-online.xml -p packages\windows.x86-64 rat-x86-64-online.exe

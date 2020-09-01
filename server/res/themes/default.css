@@ -1,0 +1,13 @@
+#frame_2{
+    background-color: rgb(255, 255, 255);
+}
+
+#frame_2 QPushButton {
+    border: none;
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+    padding: 6px 12px;
+}
+#frame_2 QPushButton::hover {
+    text-decoration: underline;
+}

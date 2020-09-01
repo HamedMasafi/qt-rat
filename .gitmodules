@@ -1,0 +1,39 @@
+[submodule "3rdparty/neuron"]
+	path = 3rdparty/neuron
+	url = https://github.com/hamedmasafi/neuron.git
+[submodule "3rdparty/QtConsole"]
+	path = 3rdparty/QtConsole
+	url = https://github.com/uglide/QtConsole.git
+[submodule "3rdparty/al-khaser"]
+	path = 3rdparty/al-khaser
+	url = https://github.com/LordNoteworthy/al-khaser.git
+[submodule "3rdparty/lz4"]
+	path = 3rdparty/lz4
+	url = https://github.com/lz4/lz4.git
+[submodule "3rdparty/QtService"]
+	path = 3rdparty/QtService
+	url = https://github.com/HamedMasafi/QtService.git
+[submodule "3rdparty/screen_capture_lite"]
+	path = 3rdparty/screen_capture_lite
+	url = https://github.com/smasherprog/screen_capture_lite.git
+[submodule "3rdparty/QHexEdit"]
+	path = 3rdparty/QHexEdit
+	url = https://github.com/Simsys/qhexedit2.git
+[submodule "3rdparty/Logger"]
+	path = 3rdparty/Logger
+	url = https://github.com/HamedMasafi/Logger.git
+[submodule "3rdparty/Qt-AES"]
+	path = 3rdparty/Qt-AES
+	url = https://github.com/bricke/Qt-AES.git
+[submodule "3rdparty/QAes"]
+	path = 3rdparty/QAes
+	url = https://github.com/dushibaiyu/QAes.git
+[submodule "3rdparty/QTinyAes"]
+	path = 3rdparty/QTinyAes
+	url = https://github.com/Skycoder42/QTinyAes.git
+[submodule "3rdparty/tiny-aes"]
+	path = 3rdparty/tiny-aes
+	url = https://github.com/kokke/tiny-AES-c.git
+[submodule "3rdparty/QHttpServer"]
+	path = 3rdparty/QHttpServer
+	url = https://github.com/qt-labs/qthttpserver.git

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>Rat Server</Name>
+    <Version>0.1</Version>
+    <Title>Rat Server Installer</Title>
+    <Publisher>Tooska</Publisher>
+    <StartMenuDir>RAT</StartMenuDir>
+    <TargetDir>@ApplicationsDir@/RAT</TargetDir>
+	<RemoteRepositories>
+        <Repository>
+            <Url>http://repo.tooska-co.ir/rat/windows/</Url>
+        </Repository>
+    </RemoteRepositories>
+</Installer>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Linux</DisplayName>
+    <Description>Linux client generaion support</Description>
+    <Version>0.1.0-1</Version>
+    <ReleaseDate>2020-01-09</ReleaseDate>
+    <Default>true</Default>
+</Package>

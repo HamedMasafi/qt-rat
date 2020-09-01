@@ -1,0 +1,14 @@
+#!/bin/bash
+
+res="icons.qrc"
+prename 's/iconfinder_([^_]+)_\d+/$1/' *.png
+ 
+echo '' > $res
+
+echo '<RCC>' >> $res
+echo '    <qresource prefix="/icons">' >> $res
+for p in *.png; do
+    echo "        <file alias=\"$p\">$p</file>" >> $res
+done
+echo '    </qresource>' >> $res
+echo '</RCC>' >> $res

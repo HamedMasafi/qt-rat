@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Qt runtimes</DisplayName>
+    <Description>qt runtime dll and plugins</Description>
+    <Version>5.14.0-1</Version>
+    <ReleaseDate>2020-01-09</ReleaseDate>
+	<Default>true</Default>
+    <Required>true</Required>
+</Package>

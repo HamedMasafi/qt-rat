@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>422</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Console</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res/icons/icons.qrc">
+    <normaloff>:/icons/rat.png</normaloff>:/icons/rat.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QTableView" name="tableView">
+          <property name="contextMenuPolicy">
+           <enum>Qt::CustomContextMenu</enum>
+          </property>
+          <property name="selectionMode">
+           <enum>QAbstractItemView::SingleSelection</enum>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QListView" name="listView">
+          <property name="contextMenuPolicy">
+           <enum>Qt::CustomContextMenu</enum>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>64</width>
+            <height>64</height>
+           </size>
+          </property>
+          <property name="viewMode">
+           <enum>QListView::IconMode</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>550</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <widget class="QMenu" name="menuPower">
+     <property name="title">
+      <string>Power</string>
+     </property>
+     <addaction name="actionShutdown"/>
+     <addaction name="actionReboot"/>
+     <addaction name="actionLogOut"/>
+    </widget>
+    <addaction name="actionTaskManager"/>
+    <addaction name="actionStartupManager"/>
+    <addaction name="actionKeylogger"/>
+    <addaction name="separator"/>
+    <addaction name="actionCli"/>
+    <addaction name="actionFileManager"/>
+    <addaction name="actionFileTransfer"/>
+    <addaction name="actionRegistry"/>
+    <addaction name="actionOpenUrl"/>
+    <addaction name="separator"/>
+    <addaction name="actionScreenShot"/>
+    <addaction name="actionWebcam"/>
+    <addaction name="separator"/>
+    <addaction name="actionSocks_proxy"/>
+    <addaction name="actionRemote_desktop"/>
+    <addaction name="actionMinrophone_spy"/>
+    <addaction name="separator"/>
+    <addaction name="actionMessageBox"/>
+    <addaction name="actionSystem_informations"/>
+    <addaction name="menuPower"/>
+    <addaction name="actionPassword_grabber"/>
+    <addaction name="actionDownload_execute"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionSettings"/>
+    <addaction name="separator"/>
+    <addaction name="actionMake_client"/>
+    <addaction name="separator"/>
+    <addaction name="actionClose"/>
+    <addaction name="actionQuite"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionLogs"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionList_view"/>
+    <addaction name="actionIcon_view"/>
+   </widget>
+   <addaction name="menu_2"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuView"/>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionTaskManager"/>
+   <addaction name="actionStartupManager"/>
+   <addaction name="actionCli"/>
+   <addaction name="actionScreenShot"/>
+   <addaction name="actionFileManager"/>
+   <addaction name="actionWebcam"/>
+   <addaction name="actionFileTransfer"/>
+   <addaction name="actionSystem_informations"/>
+   <addaction name="actionRemote_desktop"/>
+   <addaction name="actionSocks_proxy"/>
+  </widget>
+  <action name="actionTaskManager">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/task-manager.png</normaloff>:/icons/task-manager.png</iconset>
+   </property>
+   <property name="text">
+    <string>Task manager...</string>
+   </property>
+  </action>
+  <action name="actionMessageBox">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/messagebox.png</normaloff>:/icons/messagebox.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show message...</string>
+   </property>
+  </action>
+  <action name="actionStartupManager">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/preferences-system.png</normaloff>:/icons/preferences-system.png</iconset>
+   </property>
+   <property name="text">
+    <string>Startup items...</string>
+   </property>
+  </action>
+  <action name="actionCli">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/utilities-terminal.png</normaloff>:/icons/utilities-terminal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Command line...</string>
+   </property>
+  </action>
+  <action name="actionScreenShot">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/my-computer.png</normaloff>:/icons/my-computer.png</iconset>
+   </property>
+   <property name="text">
+    <string>Screen shot...</string>
+   </property>
+  </action>
+  <action name="actionFileManager">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/system-file-manager.png</normaloff>:/icons/system-file-manager.png</iconset>
+   </property>
+   <property name="text">
+    <string>File manager...</string>
+   </property>
+   <property name="toolTip">
+    <string>File manager</string>
+   </property>
+  </action>
+  <action name="actionOpenUrl">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/internet-web-browser.png</normaloff>:/icons/internet-web-browser.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open url...</string>
+   </property>
+  </action>
+  <action name="actionWebcam">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/camera-photo.png</normaloff>:/icons/camera-photo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show webcam...</string>
+   </property>
+  </action>
+  <action name="actionFileTransfer">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/transfer.png</normaloff>:/icons/transfer.png</iconset>
+   </property>
+   <property name="text">
+    <string>File transfer...</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionQuite">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About...</string>
+   </property>
+  </action>
+  <action name="actionEnglish">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/icons/United_States_of_America.png</normaloff>:/icons/United_States_of_America.png</iconset>
+   </property>
+   <property name="text">
+    <string>English</string>
+   </property>
+  </action>
+  <action name="actionFarsi">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/icons/Iran.png</normaloff>:/icons/Iran.png</iconset>
+   </property>
+   <property name="text">
+    <string>Farsi</string>
+   </property>
+  </action>
+  <action name="actionSystem_informations">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/view-refresh.png</normaloff>:/icons/view-refresh.png</iconset>
+   </property>
+   <property name="text">
+    <string>System informations...</string>
+   </property>
+  </action>
+  <action name="actionRemote_desktop">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/preferences-desktop-remote-desktop.png</normaloff>:/icons/preferences-desktop-remote-desktop.png</iconset>
+   </property>
+   <property name="text">
+    <string>Remote desktop...</string>
+   </property>
+  </action>
+  <action name="actionSocks_proxy">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/preferences-system-network-proxy.png</normaloff>:/icons/preferences-system-network-proxy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Socks proxy...</string>
+   </property>
+  </action>
+  <action name="actionShutdown">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/power_blue.png</normaloff>:/icons/power_blue.png</iconset>
+   </property>
+   <property name="text">
+    <string>Shutdown...</string>
+   </property>
+  </action>
+  <action name="actionReboot">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/button_blue_repeat.png</normaloff>:/icons/button_blue_repeat.png</iconset>
+   </property>
+   <property name="text">
+    <string>Reboot...</string>
+   </property>
+  </action>
+  <action name="actionLock">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/lock.png</normaloff>:/icons/lock.png</iconset>
+   </property>
+   <property name="text">
+    <string>Lock</string>
+   </property>
+  </action>
+  <action name="actionUnlock">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/lock-open.png</normaloff>:/icons/lock-open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Unlock</string>
+   </property>
+  </action>
+  <action name="actionKeylogger">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/input-keyboard.png</normaloff>:/icons/input-keyboard.png</iconset>
+   </property>
+   <property name="text">
+    <string>Keylogger</string>
+   </property>
+  </action>
+  <action name="actionLogOut">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/Internet_Security_entrance_exit_log_out_arrow.png</normaloff>:/icons/Internet_Security_entrance_exit_log_out_arrow.png</iconset>
+   </property>
+   <property name="text">
+    <string>Log out...</string>
+   </property>
+  </action>
+  <action name="actionBrowser_tabs">
+   <property name="text">
+    <string>Browser tabs...</string>
+   </property>
+  </action>
+  <action name="actionMake_client">
+   <property name="text">
+    <string>Make client...</string>
+   </property>
+   <property name="shortcut">
+    <string>F4</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="text">
+    <string>Settings...</string>
+   </property>
+   <property name="shortcut">
+    <string>F6</string>
+   </property>
+  </action>
+  <action name="actionRegistry">
+   <property name="icon">
+    <iconset resource="res/icons/icons.qrc">
+     <normaloff>:/icons/registry.png</normaloff>:/icons/registry.png</iconset>
+   </property>
+   <property name="text">
+    <string>Registry...</string>
+   </property>
+  </action>
+  <action name="actionLogs">
+   <property name="text">
+    <string>Logs...</string>
+   </property>
+  </action>
+  <action name="actionMinrophone_spy">
+   <property name="text">
+    <string>Minrophone spy...</string>
+   </property>
+  </action>
+  <action name="actionList_view">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>List view</string>
+   </property>
+  </action>
+  <action name="actionIcon_view">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Icon view</string>
+   </property>
+  </action>
+  <action name="actionPassword_grabber">
+   <property name="text">
+    <string>Password grabber...</string>
+   </property>
+  </action>
+  <action name="actionDownload_execute">
+   <property name="text">
+    <string>Download &amp;&amp; execute...</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res/icons/icons.qrc"/>
+  <include location="res/res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionQuite</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>274</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionClose</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>274</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
